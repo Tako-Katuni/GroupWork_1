@@ -6,7 +6,7 @@ import io.qameta.allure.Step;
 import static com.codeborne.selenide.Condition.text;
 
 public class changes {
-    Locators locators = new Locators();
+    Locators locators = new Locators(); //Constructor
 
 
     @Step("Input in Username Field")
@@ -15,7 +15,6 @@ public class changes {
             locators.usernameElement.sendKeys(locators.addElement.getText()); // Use the instance variable
 
     }
-
 
     @Step("Input in Password Field")
     public void inputPassword() {
