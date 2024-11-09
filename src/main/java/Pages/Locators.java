@@ -11,5 +11,6 @@ public class Locators {
     public SelenideElement passwordElement = $("#password");
     public SelenideElement submitButton = $("#submit");
     public SelenideElement verificationElement = $(".post-title");
+    public SelenideElement errorMessage = $(".show");
 
 }
